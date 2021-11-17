@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.imagebanner {
+    background-image: url("images/banner.jpg");
+    padding: 50px 0;
+    background-size: cover;
+}
+
+
+.introduction {
+    text-align:center;
+    color:darkgrey;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    text-align:center;
+    color:azure;
+    background-color:black;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: rgb(29, 27, 27);
+}
+
+
+
+
+li {
+    padding: 16px;
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+    
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+
+
+
+
+
+}
+  
+
+
+
+
+ul{
+    padding:0;
+    list-style-type: none;
+    margin:0;
+}
+.navlinks {
+    background-color:rgb(96, 161, 96) ;
+    color:white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
